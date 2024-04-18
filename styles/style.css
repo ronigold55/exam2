@@ -1,4 +1,4 @@
-h1{
+h1,h2,h3{
     color: blue;
     text-decoration-line: underline;
     text-align: center;
@@ -14,6 +14,18 @@ div.userData{
     padding: 10px;
     flex-wrap: wrap;
 }
+div.container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+
+
+
+}
 
 
 /* html {
@@ -26,9 +38,53 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    height: 2000px; /* To simulate scrollable content */
+    height:90%; /* To simulate scrollable content */
 }
 #newContent {
-    margin-top: 1000px; /* Initial position */
+    margin-bottom: 10%; /* Initial position */
+    /* margin-bottom: 2%; */
     
 }
+
+div.newContent{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+div.fav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 25px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    cursor: move;
+  }
+  
+  .droppable {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border: 2px dashed #333;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  

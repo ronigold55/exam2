@@ -10,25 +10,43 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- <script defer src="libs/jquery.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script defer src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
-    <!-- <script src="second.jss"></script> -->
+    <script src="dragdrop.js"></script>
     <title>RANDOM USERS</title>
 </head>
 
 <body>
 
     <h1>Random Users Client</h1>
-
-    <div id="userData" class="userData">
-
-        <div id="newContent" class="newContent">   
-        
-
-       
+    <div class="fav">
+        <span id="favorite"></span>
     </div>
+
+    <div id="userData" class="userData"></div><br>
+
+
+    <h2>zone to drape and drop</h2>
+
+    <div id="draggable" class="draggable">
+        Drag me!
+    </div>
+
+    <div id="droppable" class="droppable">
+        Drop here!
+    </div>
+
+
+
+
+    <h3>upload 10 more</h2>
+
+        <div id="newContent" class="newContent"></div>
+
+
+
 
 </body>
 
