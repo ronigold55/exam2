@@ -7,14 +7,28 @@ h1{
 }
 
 div.userData{
+    height: 100%;
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 
-html {
+/* html {
     scroll-behavior: auto;
    
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 2000px; /* To simulate scrollable content */
+}
+#newContent {
+    margin-top: 1000px; /* Initial position */
+    
 }
